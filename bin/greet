@@ -6,5 +6,5 @@ require_relative "../lib/greeting.rb"
 #Hi HAL
 puts "Hi! I'm HAL, what's your name?"
 name = gets.gsub(/\t/, "")
-name.strip
+name = name.strip
 greeting(name)
